@@ -1,14 +1,15 @@
 # CCI_extractor
-A matlab script to extract CCI data using OPeNDAP access.
+A script to extract CCI data using OPeNDAP data access protocol.
 
-This is a simple matlab script based on the OPeNDAP data access protocol to extract and download data from the ESA Climate Change Initiative (CCI) dataset.
+This is a simple script based on the OPeNDAP data access protocol to extract and download data from the ESA Climate Change Initiative (CCI) dataset.
 The user can define: 
 - the period of interest (years)
 - the lake/region of interest (lat/lon extent) 
 - the variables of interest (see list below)
 
-The script can be easily translated into other languages (e.g., Python, R). 
-Scheduled to be done.
+The script is currently available in matlab. 
+The skeleton of an R version is also available and will be completed soon. 
+A Python version will be provided as well.
 
 General notes:
 - the use of quality flags and uncertainty estimates is always highly recommended
