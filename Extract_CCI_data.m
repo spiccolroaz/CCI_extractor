@@ -33,7 +33,7 @@ lon_range=floor((180+lon)/res); lon_range_str=['[',num2str(lon_range(1)),':1:',n
 cont=1;
 for y=1:length(years)
     for m=1:12
-        disp(['Year: ' num2str(y) ' , month:' num2str(m)])
+        disp(['Year: ' num2str(years(y)) ' , month:' num2str(m)])
         for d=1:31
             if d<=eomday(years(y),m)
                 url=['https://data.cci.ceda.ac.uk/thredds/dodsC/esacci/lakes/data/lake_products/L3S/v' ver '/'...
