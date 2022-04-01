@@ -10,6 +10,10 @@ The user can define:
 The script can be easily translated into other languages (e.g., Python, R). 
 Scheduled to be done.
 
+General notes:
+- the use of quality flags and uncertainty estimates is always highly recommended
+- it may be useful to save daily nc files (as in the original repository) if the region of interest is wide
+
 Contact:
 Sebastiano Piccolroaz
 University of Trento (Italy)
