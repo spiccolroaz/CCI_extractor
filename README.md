@@ -18,61 +18,60 @@ s.piccolroaz@unitn.it
 CCI dataset reference: Crétaux et al. (2020): ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 1.0. Centre for Environmental Data Analysis, 08 June 2020. doi:10.5285/3c324bb4ee394d0d876fe2e1db217378.
 
 Available CCI variables:
-lat
-lon
-time
-lat_bounds
-lon_bounds
-Variables' names:
-chla_mean
-chla_uncertainty
-turbidity_mean
-turbidity_uncertainty
-lake_surface_water_temperature
-lswt_uncertainty
-lswt_quality_level
-lake_ice_cover
-lake_ice_cover_uncertainty
-water_surface_height_above_reference_datum
-water_surface_height_uncertainty
-lake_surface_water_extent
-lake_surface_water_extent_uncertainty
-Rw900
-Rw900_uncertainty_relative
-Rw900_uncertainty_relative_unbiased
-Rw620
-Rw620_uncertainty_relative
-Rw620_uncertainty_relative_unbiased
-Rw709
-Rw709_uncertainty_relative
-Rw709_uncertainty_relative_unbiased
-Rw885
-Rw885_uncertainty_relative
-Rw885_uncertainty_relative_unbiased
-Rw754
-Rw754_uncertainty_relative
-Rw754_uncertainty_relative_unbiased
-Rw443
-Rw443_uncertainty_relative
-Rw443_uncertainty_relative_unbiased
-Rw681
-Rw681_uncertainty_relative
-Rw681_uncertainty_relative_unbiased
-Rw665
-Rw665_uncertainty_relative
-Rw665_uncertainty_relative_unbiased
-Rw779
-Rw779_uncertainty_relative
-Rw779_uncertainty_relative_unbiased
-Rw560
-Rw560_uncertainty_relative
-Rw560_uncertainty_relative_unbiased
-Rw412
-Rw412_uncertainty_relative
-Rw412_uncertainty_relative_unbiased
-Rw510
-Rw510_uncertainty_relative
-Rw510_uncertainty_relative_unbiased
-Rw490
-Rw490_uncertainty_relative
-Rw490_uncertainty_relative_unbiased
+- lat
+- lon
+- time
+- lat_bounds
+- lon_bounds
+- chla_mean
+- chla_uncertainty
+- turbidity_mean
+- turbidity_uncertainty
+- lake_surface_water_temperature
+- lswt_uncertainty
+- lswt_quality_level
+- lake_ice_cover
+- lake_ice_cover_uncertainty
+- water_surface_height_above_reference_datum
+- water_surface_height_uncertainty
+- lake_surface_water_extent
+- lake_surface_water_extent_uncertainty
+- Rw900
+- Rw900_uncertainty_relative
+- Rw900_uncertainty_relative_unbiased
+- Rw620
+- Rw620_uncertainty_relative
+- Rw620_uncertainty_relative_unbiased
+- Rw709
+- Rw709_uncertainty_relative
+- Rw709_uncertainty_relative_unbiased
+- Rw885
+- Rw885_uncertainty_relative
+- Rw885_uncertainty_relative_unbiased
+- Rw754
+- Rw754_uncertainty_relative
+- Rw754_uncertainty_relative_unbiased
+- Rw443
+- Rw443_uncertainty_relative
+- Rw443_uncertainty_relative_unbiased
+- Rw681
+- Rw681_uncertainty_relative
+- Rw681_uncertainty_relative_unbiased
+- Rw665
+- Rw665_uncertainty_relative
+- Rw665_uncertainty_relative_unbiased
+- Rw779
+- Rw779_uncertainty_relative
+- Rw779_uncertainty_relative_unbiased
+- Rw560
+- Rw560_uncertainty_relative
+- Rw560_uncertainty_relative_unbiased
+- Rw412
+- Rw412_uncertainty_relative
+- Rw412_uncertainty_relative_unbiased
+- Rw510
+- Rw510_uncertainty_relative
+- Rw510_uncertainty_relative_unbiased
+- Rw490
+- Rw490_uncertainty_relative
+- Rw490_uncertainty_relative_unbiased
