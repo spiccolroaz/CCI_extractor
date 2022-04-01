@@ -31,7 +31,7 @@ lat_range=floor((90+lat)/res); lat_range_str=['[',num2str(lat_range(1)),':1:',nu
 lon_range=floor((180+lon)/res); lon_range_str=['[',num2str(lon_range(1)),':1:',num2str(lon_range(2)),']'];
 
 cont=1;
-for y=length(years)
+for y=1:length(years)
     for m=1:12
         disp(['Year: ' num2str(y) ' , month:' num2str(m)])
         for d=1:31
