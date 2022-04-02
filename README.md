@@ -7,8 +7,7 @@ The user can define:
 - the lake/region of interest (lat/lon extent) 
 - the variables of interest (see list below)
 
-The script is currently available in matlab. 
-The skeleton of an R version is also available and will be completed soon. 
+The script is currently available in matlab and R. 
 A Python version will be provided as well.
 
 General notes:
