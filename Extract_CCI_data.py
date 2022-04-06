@@ -1,3 +1,13 @@
+# Aim: To extract remote sensing data from the CCI database according to
+# user defined period, extent of the region and variables of interest.
+# Reference: Crétaux et al. (2020): ESA Lakes Climate Change Initiative
+# (Lakes_cci): Lake products, Version 1.0. Centre for Environmental Data
+# Analysis, 08 June 2020. doi:10.5285/3c324bb4ee394d0d876fe2e1db217378.
+#
+# Created on 06/04/2022 by Hugo Cruz 
+# Contacts: huggcruzz@gmail.com, s.piccolroaz@unitn.it
+#########################################################################
+
 import numpy as np
 import pandas as pd
 import xarray as xr
