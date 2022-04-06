@@ -3,12 +3,11 @@ import pandas as pd
 import netCDF4
 import xarray as xr
 
-path = "https://data.cci.ceda.ac.uk/thredds/dodsC/esacci/lakes/data/lake_products/L3S/v2.0/2016/01/ESACCI-LAKES-L3S-LK_PRODUCTS-MERGED-20160101-fv2.0.nc?lat[16251:1:16308],lon[22860:1:22906],time[0:1:0],lake_surface_water_temperature[0:1:0][16251:1:16308][22860:1:22906],lswt_quality_level[0:1:0][16251:1:16308][22860:1:22906]"
 ver = '2.0'
 
-start = "2016-01-01"
-end = "2017-01-01"
-date_range = pd.date_range(start = start , end = end, periods=100)
+start = "2018-01-01"
+end = "2018-01-01"
+date_range = pd.date_range(start = start , end = end, freq="D")
 
 lat = np.array([45.43, 45.90])
 lon = np.array([10.50, 10.89]) # Lake Garda
@@ -42,8 +41,4 @@ for date in range(0,len(date_range)):
         combined_dataset = xr.combine_by_coords([combined_dataset, dataset], combine_attrs='override')
 
 outfile = "CCI_v"+ver+"_"+year[0]+"-"+year[-1]+".nc"
-nc = netCDF4.Dataset(outfile, mode="w", format='NETCDF4')
-nc = dataset
-nc.close()
-
-    
+combined_dataset.to_netcdf(outfile)
