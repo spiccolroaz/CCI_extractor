@@ -1,12 +1,11 @@
 import numpy as np
-import pandas as pd 
-import netCDF4
+import pandas as pd
 import xarray as xr
 
 ver = '2.0'
 
-start = "2018-01-01"
-end = "2018-01-01"
+start = "2020-01-01"
+end = "2020-01-01"
 date_range = pd.date_range(start = start , end = end, freq="D")
 
 lat = np.array([45.43, 45.90])
@@ -17,7 +16,7 @@ res = 1 / 120
 lat_range = np.floor((90 + lat)/res).astype("int")
 lat_range_str = str(lat_range).replace(" ", ":1:")
 
-lon_range = np.floor((90 + lon)/res).astype("int")
+lon_range = np.floor((180 + lon)/res).astype("int")
 lon_range_str = str(lon_range).replace(" ", ":1:")
 
 year = list(map(str, date_range.year))
