@@ -7,9 +7,12 @@ The user can define:
 - the lake/region of interest (lat/lon extent) 
 - the variables of interest (see list below)
 
-The script is currently available in matlab and R. 
-A Python version will be provided as well.
+The script is currently available in matlab, R and Python. The Python version is way more compact than the matlab and R versions. This may be due to the language but I do not exclude that the matlab and R versions can be further simplified.
 
+Future improvements:
+- choice of the variable of interest from a list
+- possibility to load a lake mask to define the extent of the region of interest and crop it according to the lake's shape  
+ 
 General notes:
 - the use of quality flags and uncertainty estimates is always highly recommended
 - it may be useful to save daily nc files (as in the original repository) if the region of interest is wide
@@ -18,6 +21,9 @@ Contact:
 Sebastiano Piccolroaz
 University of Trento (Italy)
 s.piccolroaz@unitn.it
+
+Credits:
+Hugo Cruz for the Python version (huggcruzz@gmail.com)
 
 CCI dataset reference: Crétaux et al. (2020): ESA Lakes Climate Change Initiative (Lakes_cci): Lake products, Version 1.0. Centre for Environmental Data Analysis, 08 June 2020. doi:10.5285/3c324bb4ee394d0d876fe2e1db217378.
 
